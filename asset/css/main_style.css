@@ -9,13 +9,13 @@
     font-family: myFont;
     src: url('../../ui/fonts/OpenSans-Regular.ttf');
 }
-
+ 
 
 
 #wrapper{
 
     max-width:100%;
-    min-height: 500px;
+    /* min-height: 500px; */
     max-height: 630px;
     display:flex;
     margin: auto;
@@ -266,7 +266,6 @@
    }
 
    .image_on{
-
       position: absolute;
        height: 450px;
       width: 450px;
@@ -277,6 +276,14 @@
    }
 
 .image_off{
-
       display: none;
    }
+
+   /* Mobile Responsiveness */
+   @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    #wrapper {
+      width:100%;
+      height: auto;
+    }
+}

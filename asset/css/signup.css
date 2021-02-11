@@ -1,0 +1,74 @@
+@font-face{
+
+    font-family: headFont;
+    src: url('../../ui/fonts/Katracy.otf');
+}
+
+@font-face{
+
+    font-family: myFont;
+    src: url('../../ui/fonts/OpenSans-Regular.ttf');
+}
+
+
+
+#wrapper{
+
+    max-width:900px;
+    min-height: 500px;
+    margin: auto;
+    color: grey;
+    font-family: myFont;
+    font-size: 13px;
+}
+
+form{
+
+    margin: auto;
+    padding: 10px;
+    width:100%;
+    max-width: 400px;
+}
+
+input[type=text],input[type=password],input[type=button]{
+
+    padding:10px;
+    margin: 10px;
+    width:100%;
+    border-radius: 5px;
+    border:solid 1px grey;
+}
+
+input[type=button]{
+
+    width: 100%;
+    cursor: pointer;
+    background-color: #2b5488;
+    color: white;
+}
+
+input[type=radio]{
+
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#header{
+
+    background-color: #485b6c;
+    font-size: 40px;
+    text-align: center;
+    font-family: headFont;
+    width: 100%;
+    color: white;
+}
+
+
+#error{
+
+    text-align: center;
+    padding: 0.5em;
+    background-color: #ecaf91;
+    color: white;
+    display: none;
+}
